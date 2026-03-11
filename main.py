@@ -13,3 +13,6 @@ while continue_registering:
         continue_registering = False
 
 product_totals, total_revenue = calculate_totals(sales_list)
+
+print (product_totals)
+print (total_revenue)

@@ -9,3 +9,4 @@ def sales_record():
         "quantity": quantity
     }
     return sale
+print (sales_record())

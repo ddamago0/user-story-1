@@ -7,8 +7,9 @@ def sales_record():
 
         if product == "":
             print("Error: product name cannot be empty.")
+            
 
-        elif product.isdigit():
+        elif product.replace("-", "").isdigit():
             print("Error: product name cannot be a number.")
 
         else:

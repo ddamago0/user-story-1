@@ -1,27 +1,12 @@
-Sales Registration System
+# Sales Registration System
 
-This project consists of a Python script that allows a store to register multiple daily sales and generate a final summary with the processed information.
+## Description
+This project **is** a modular Python application for small businesses. It **is** an efficient tool to track daily transactions and revenue. 
 
-The system asks the user for:
+## How it works
+1. The user **inputs** the product name, price, and quantity.
+2. The system **validates** that the information follows the correct format.
+3. The program **calculates** the total revenue for the day.
+4. Each sale **stays** in a list until the process ends.
 
-Product name
-
-Unit price
-
-Quantity sold
-
-Each sale is stored in a list and, once the user finishes registering sales, the program calculates:
-
-The total quantity sold per product
-
-The total revenue of the day
-
-Input validation mechanisms were also implemented to prevent incorrect data entries, such as:
-
-Empty fields
-
-Non-numeric values for price or quantity
-
-Negative or zero values
-
-Invalid product names
+> **Status:** Currently, the system **is processing** data correctly and generating summaries without errors.
